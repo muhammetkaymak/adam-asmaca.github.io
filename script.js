@@ -11,39 +11,7 @@ const wrongLetters = [];
 let selectedWord = getRandomWord();
 
 function getRandomWord() {
-    const words = ['javascript',
-        'java',
-        'python',
-        'browser',
-        'github',
-        'ruby',
-        'figma',
-        'twitter',
-        'instagram',
-        'superpeer',
-        'console',
-        'error',
-        'helloworld',
-        'medium',
-        'explorer',
-        'chrome',
-        'mozilla',
-        'firefox',
-        'windows',
-        'ubuntu',
-        'macos',
-        'macbook',
-        'apple',
-        'search',
-        'huawei',
-        'google',
-        'microsoft',
-        'amazon',
-        'metaverse',
-        'cloud',
-        'spotify',
-        'podcast',
-        'wordle',];
+    const words = ['deneme'];
 
     return words[Math.floor(Math.random() * words.length)];
 }
